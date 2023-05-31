@@ -19,7 +19,7 @@ public class AccountController extends HttpServlet {
     public AccountController() {
         super();
     }
-	//kusoc
+	//kusocisme
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		String action = request.getParameter("action");
